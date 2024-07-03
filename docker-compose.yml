@@ -6,7 +6,7 @@ services:
     ports:
       -  8091:8091
     environment:
-      SPRING_DATASOURCE_URL : jdbc:mysql://db:ousolutions
+      SPRING_DATASOURCE_URL : jdbc:mysql://db:3306/ousolutions
       SPRING_DATASOURCE_USERNAME : root
       SPRING_DATASOURCE_PASSWORD : 1234
     depends_on:

@@ -13,7 +13,7 @@ services:
       -  db
 
   db:
-    image: mysql:8.0.27
+    image: mysql:latest
     environment:
       DATABASE_HOST : docker-mysql
       DATABASE_PORT : 3306

@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class PatientRegisterationDTO {
 	
+	private Long patientId;
 	private String fullName;
 	private String gender;
 	private Date birthDate;
